@@ -1,0 +1,98 @@
+.container {
+    padding: 10px;
+}
+
+.title {
+    font-size: x-large !important;
+    font-weight: lighter !important;
+    color: #878787 !important;
+    line-height: 1.2;
+    text-align: left;
+    font-family: arial,sans-serif;
+}
+
+.subHeader {
+    font-size: medium !important;
+    font-weight: lighter !important;
+    color: #878787 !important;
+    font-family: arial,sans-serif;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.detailsWrapper {
+    padding: 10px 0px;
+}
+
+.imageWrapper {
+    float: left;
+    height: 100px;
+    width: 100px;
+    padding-right: 10px;
+}
+
+.temperatureWrapper {
+    float: left;
+    display: flex;
+    align-items: flex-start;
+}
+
+.temperature {
+    font-size: 64px;
+    color: #212121 !important;
+}
+
+.unit {
+    font-size: 16px;
+    color: #212121 !important;
+}
+
+.weatherDetailsWrapper {
+    float: right;
+    padding: 10px;
+}
+
+.buttonSwitch {
+    padding: 10px;   
+    border-radius: 10px;
+    background-color: #F0F0F0;
+    margin-right: 10px;
+    outline: none;
+}
+
+.buttonsWrapper {
+    padding-top: 10px;
+    display: flex;
+}
+
+.radio {
+    margin-right: 10px;
+}
+
+.link {
+    color: blue;
+    &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
+
+.breakDownsContainer {
+    width: 100%;
+    overflow: auto;
+    display: flex;
+}
+
+.brakdownWidgetWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #F0F0F0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 100px;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 5px;
+}
