@@ -78,9 +78,6 @@ on base route Home container is mounted. You will get the container at following
 /src/containers/Home/index.js
 In this folder you will get reducer, saga, selector, constants, actions.
 
-
-Can mail me on shivanandssonnad@gmail.com if you have any doubt or want to understand the structure more. Thanks for reading.
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
