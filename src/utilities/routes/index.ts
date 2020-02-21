@@ -7,8 +7,8 @@ export default function (store: any) {
     return [
         {
             path: '',
-            test1: 'shivanand',
-            test2: 'sonnad',
+            test1: 'omkar',
+            test2: 'javanjal',
             onEnter: (cb: Function) => {
                 const loadFiles = Promise.all([
                     import('../../containers/Home/reducer'),
@@ -25,8 +25,8 @@ export default function (store: any) {
                 {
                     path: 'component1',
                     component: Component1,
-                    test1: 'shivanand',
-                    test2: 'sonnad',
+                    test1: 'omkar',
+                    test2: 'javanjal',
                     onEnter: (cb: Function) => {
                         console.log('here2');
                         cb();
@@ -35,8 +35,8 @@ export default function (store: any) {
                         {
                             path: 'component2',
                             component: Component2,
-                            test1: 'shivanand',
-                            test2: 'sonnad',
+                            test1: 'omkar',
+                            test2: 'javanjal',
                             onEnter: (cb: Function) => {
                                 console.log('here31')
                                 cb();
@@ -45,8 +45,8 @@ export default function (store: any) {
                                 {
                                     path: 'component3',
                                     component: Component3,
-                                    test1: 'shivanand',
-                                    test2: 'sonnad',
+                                    test1: 'omkar',
+                                    test2: 'javanjal',
                                     onEnter: (cb: Function) => {
                                         console.log('here32')
                                         cb();
@@ -55,8 +55,8 @@ export default function (store: any) {
                                         {
                                             path: 'component4',
                                             component: Component1,
-                                            test1: 'shivanand',
-                                            test2: 'sonnad',
+                                            test1: 'omkar',
+                                            test2: 'javanjal',
                                         },
                                     ]
                                 },
